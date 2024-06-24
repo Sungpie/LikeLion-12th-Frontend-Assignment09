@@ -26,8 +26,8 @@ function App() {
       {weather && (
         <div>
           <h2>{weather.name}</h2>
-          <p>온도: {weather.main.temp}°C</p>
-          <p>날씨: {weather.weather[0].description}</p>
+          <p>온도 : {weather.main.temp}°C</p>
+          <p>날씨 : {weather.weather[0].description}</p>
         </div>
       )}
     </div>
